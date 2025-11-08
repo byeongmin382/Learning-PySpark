@@ -1,5 +1,7 @@
 # Note for myself
 
+## Environmental prep
+
 Create the virtual environment:
 ```zsh
 python3 -m venv pyspark-learn-env
@@ -11,11 +13,25 @@ Activate the virtual envirionment:
 source pyspark-learn-env/bin/activate
 ```
 
+**Or use the setup script** (recommended - also configures Java 17):
 
-After finishing work, use the following command to come back to system Python.
+```zsh
+source setup_env.sh
+```
+
+If running this for the 1st time, install `pyspark3` in the virtual environment.
+
+
+After finishing work, use the following command to come back to system Python:
 
 ```zsh
 deactivate
+```
+
+**Note:** If you used `setup_env.sh`, the Java environment variables (`JAVA_HOME` and `PATH`) will persist in your current shell session. They will automatically be cleared when you close the terminal. If you want to explicitly unset them in the same session:
+
+```zsh
+unset JAVA_HOME
 ```
 
 # Learning PySpark
