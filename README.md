@@ -1,5 +1,15 @@
+# Note for myself
 
+Activate the virtual envirionment:
 
+```zsh
+source pyspark-learn-env/bin/activate
+```
+After finishing work, use the following command to come back to system Python.
+
+```zsh
+deactivate
+```
 
 # Learning PySpark
 This is the code repository for [Learning PySpark](https://www.packtpub.com/big-data-and-business-intelligence/learning-pyspark?utm_source=github&utm_medium=repository&utm_content=9781786463708), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
