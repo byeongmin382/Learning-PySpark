@@ -1,10 +1,17 @@
 # Note for myself
 
+Create the virtual environment:
+```zsh
+python3 -m venv pyspark-learn-env
+```
+
 Activate the virtual envirionment:
 
 ```zsh
 source pyspark-learn-env/bin/activate
 ```
+
+
 After finishing work, use the following command to come back to system Python.
 
 ```zsh
